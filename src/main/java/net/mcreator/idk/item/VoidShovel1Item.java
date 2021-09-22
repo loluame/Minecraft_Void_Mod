@@ -4,25 +4,25 @@ package net.mcreator.idk.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
 
 import net.mcreator.idk.itemgroup.VoidItemsItemGroup;
 import net.mcreator.idk.IdkModElements;
 
 @IdkModElements.ModElement.Tag
-public class VoidAxeItem extends IdkModElements.ModElement {
-	@ObjectHolder("idk:void_axe")
+public class VoidShovel1Item extends IdkModElements.ModElement {
+	@ObjectHolder("idk:void_shovel_1")
 	public static final Item block = null;
-	public VoidAxeItem(IdkModElements instance) {
-		super(instance, 46);
+	public VoidShovel1Item(IdkModElements instance) {
+		super(instance, 48);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
 				return 10000;
 			}
@@ -32,7 +32,7 @@ public class VoidAxeItem extends IdkModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,6 +47,6 @@ public class VoidAxeItem extends IdkModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(VoidIngotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(VoidItemsItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("void_axe"));
+		}.setRegistryName("void_shovel_1"));
 	}
 }

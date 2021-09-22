@@ -4,7 +4,7 @@
   "definition": {
     "name": "Void Items",
     "icon": {
-      "value": "CUSTOM:VoidShovel"
+      "value": "CUSTOM:VoidShovel1"
     },
     "showSearch": true
   }

@@ -41,7 +41,7 @@ import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.idk.itemgroup.VoidItemsItemGroup;
 import net.mcreator.idk.item.VoiddustItem;
-import net.mcreator.idk.item.VoidAxeItem;
+import net.mcreator.idk.item.VoidAxe1Item;
 import net.mcreator.idk.entity.renderer.VoidBruteRenderer;
 import net.mcreator.idk.IdkModElements;
 
@@ -103,7 +103,7 @@ public class VoidBruteEntity extends IdkModElements.ModElement {
 			super(type, world);
 			experienceValue = 50;
 			setNoAI(false);
-			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(VoidAxeItem.block));
+			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(VoidAxe1Item.block));
 		}
 
 		@Override

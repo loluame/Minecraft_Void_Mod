@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "voidshovel",
+    "customModelName": "Normal",
+    "name": "Void Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:VoidItems"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 10,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:VoidIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

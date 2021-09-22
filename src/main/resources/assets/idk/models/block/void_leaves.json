@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "idk:blocks/voidleaves",
+    "up": "idk:blocks/voidleaves",
+    "north": "idk:blocks/voidleaves",
+    "east": "idk:blocks/voidleaves",
+    "south": "idk:blocks/voidleaves",
+    "west": "idk:blocks/voidleaves",
+    "particle": "idk:blocks/voidleaves"
+  }
+}

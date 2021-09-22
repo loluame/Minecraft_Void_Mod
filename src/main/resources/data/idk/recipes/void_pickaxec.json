@@ -1,0 +1,30 @@
+{
+  "group": "idk",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "idk:void_ingot"
+    },
+    "1": {
+      "item": "idk:voiddust"
+    },
+    "2": {
+      "item": "idk:void_ingot"
+    },
+    "4": {
+      "item": "idk:void_stick"
+    },
+    "7": {
+      "item": "idk:void_stick"
+    }
+  },
+  "result": {
+    "item": "idk:void_pickaxe",
+    "count": 1
+  }
+}

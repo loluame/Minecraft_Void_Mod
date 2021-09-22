@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.idk.item.VoidShovelItem;
+import net.mcreator.idk.item.VoidShovel1Item;
 import net.mcreator.idk.IdkModElements;
 
 @IdkModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class VoidItemsItemGroup extends IdkModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(VoidShovelItem.block);
+				return new ItemStack(VoidShovel1Item.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

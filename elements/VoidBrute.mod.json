@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "CUSTOM:VoidAxe"
+      "value": "CUSTOM:VoidAxe1"
     },
     "equipmentOffHand": {
       "value": ""
