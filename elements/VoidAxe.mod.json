@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "voidaxe",
+    "customModelName": "Normal",
+    "name": "Void Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:VoidItems"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 10,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 20.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:VoidIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

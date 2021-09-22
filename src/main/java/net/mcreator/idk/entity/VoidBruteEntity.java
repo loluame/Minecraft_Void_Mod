@@ -21,7 +21,9 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.PotionEntity;
+import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -39,6 +41,7 @@ import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.idk.itemgroup.VoidItemsItemGroup;
 import net.mcreator.idk.item.VoiddustItem;
+import net.mcreator.idk.item.VoidAxeItem;
 import net.mcreator.idk.entity.renderer.VoidBruteRenderer;
 import net.mcreator.idk.IdkModElements;
 
@@ -86,11 +89,12 @@ public class VoidBruteEntity extends IdkModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 100);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 20);
+			ammma = ammma.createMutableAttribute(Attributes.ZOMBIE_SPAWN_REINFORCEMENTS);
 			event.put(entity, ammma.create());
 		}
 	}
 
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends ZombieEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -99,6 +103,7 @@ public class VoidBruteEntity extends IdkModElements.ModElement {
 			super(type, world);
 			experienceValue = 50;
 			setNoAI(false);
+			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(VoidAxeItem.block));
 		}
 
 		@Override
