@@ -1,0 +1,70 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "void_helmet",
+    "enableBody": true,
+    "textureBody": "void_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "void_leggings",
+    "enableBoots": true,
+    "textureBoots": "void_boots",
+    "onHelmetTick": {
+      "name": "VoidArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "VoidArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "VoidArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "VoidArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:VoidItems"
+    },
+    "armorTextureFile": "void",
+    "helmetName": "Void Armor Helmet",
+    "bodyName": "Void Armor Body",
+    "leggingsName": "Void Armor Leggings",
+    "bootsName": "Void Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 25,
+    "damageValueHelmet": 8,
+    "damageValueBody": 6,
+    "damageValueLeggings": 20,
+    "damageValueBoots": 8,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "idk:void_essence"
+    },
+    "title": {
+      "translate": "advancements.intothevoid.title"
+    },
+    "description": {
+      "translate": "advancements.intothevoid.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "intothevoid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "idk:void_realm"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "space",
+    "customModelName": "Normal",
+    "name": "Space",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "Your eating space... How?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:VoidItems"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 100,
+    "saturation": 100.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "union": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "idk:oxt_-_union",
+        "stream": false
+      }
+    ]
+  },
+  "disc1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "idk:45353453",
+        "stream": false
+      }
+    ]
+  }
+}

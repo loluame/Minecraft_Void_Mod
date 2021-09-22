@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "untitled",
+    "customModelName": "Normal",
+    "name": "Void Blade",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:VoidItems"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 10.0,
+    "attackSpeed": 2.0,
+    "enchantability": 30,
+    "damageVsEntity": 15.0,
+    "usageCount": 999,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

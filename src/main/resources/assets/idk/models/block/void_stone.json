@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "idk:blocks/voidstone",
+    "up": "idk:blocks/voidstone",
+    "north": "idk:blocks/voidstone",
+    "east": "idk:blocks/voidstone",
+    "south": "idk:blocks/voidstone",
+    "west": "idk:blocks/voidstone",
+    "particle": "idk:blocks/voidstone"
+  }
+}

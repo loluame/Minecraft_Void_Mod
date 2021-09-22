@@ -1,0 +1,24 @@
+{
+  "group": "idk",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "idk:void_ingot"
+    },
+    "1": {
+      "item": "idk:void_stick"
+    },
+    "2": {
+      "item": "idk:void_stick"
+    }
+  },
+  "result": {
+    "item": "idk:void_shovel",
+    "count": 1
+  }
+}

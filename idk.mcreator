@@ -1,0 +1,594 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "VoidBlade",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_blade"
+    },
+    {
+      "name": "VoidArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Space",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "space"
+    },
+    {
+      "name": "Voiddust",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voiddust"
+    },
+    {
+      "name": "Voidhelmet",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidhelmet"
+    },
+    {
+      "name": "VoidChestplate",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_chestplate"
+    },
+    {
+      "name": "VoidLeggings",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_leggings"
+    },
+    {
+      "name": "VoidBoots",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_boots"
+    },
+    {
+      "name": "Voidded",
+      "type": "enchantment",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidded"
+    },
+    {
+      "name": "Music",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music"
+    },
+    {
+      "name": "Akane",
+      "type": "painting",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akane"
+    },
+    {
+      "name": "Union",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "union"
+    },
+    {
+      "name": "VoidShovel",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_shovel"
+    },
+    {
+      "name": "VoidReaper",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_reaper"
+    },
+    {
+      "name": "VoidGround",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_ground"
+    },
+    {
+      "name": "VoidStone",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_stone"
+    },
+    {
+      "name": "VoidRealm",
+      "type": "biome",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_realm"
+    },
+    {
+      "name": "VoidEssence",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_essence",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "VoidFrame",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_frame"
+    },
+    {
+      "name": "VoidDimension",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "REAPER",
+      "type": "armor",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reaper",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ReapersScythe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reapers_scythe"
+    },
+    {
+      "name": "VoidLoot",
+      "type": "loottable",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_loot"
+    },
+    {
+      "name": "VoidStick",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_stick"
+    },
+    {
+      "name": "VoidIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_ingot"
+    },
+    {
+      "name": "VoidShovelc",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_shovelc"
+    },
+    {
+      "name": "VoidItems",
+      "type": "tab",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_items"
+    },
+    {
+      "name": "VoidOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_ore"
+    },
+    {
+      "name": "Voidportal",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidportal"
+    },
+    {
+      "name": "VOreSmelt",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "v_ore_smelt"
+    },
+    {
+      "name": "VoidStairs",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_stairs"
+    },
+    {
+      "name": "VoidBrick",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick"
+    },
+    {
+      "name": "VoidPillar",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_pillar"
+    },
+    {
+      "name": "VoidFence",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_fence"
+    },
+    {
+      "name": "VoidSlab",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_slab"
+    },
+    {
+      "name": "MobInventory",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mob_inventory"
+    },
+    {
+      "name": "VoidWanderer",
+      "type": "livingentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_wanderer"
+    },
+    {
+      "name": "VoidStronghold",
+      "type": "structure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_stronghold"
+    },
+    {
+      "name": "VoidedEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voided_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voided",
+      "type": "potioneffect",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voided"
+    },
+    {
+      "name": "ReapersScytheLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reapers_scythe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidLightBar",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_light_bar"
+    },
+    {
+      "name": "Intothevoid",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "intothevoid"
+    },
+    {
+      "name": "VoidBrute",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brute"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "union",
+      "files": [
+        "oxt_-_union"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "disc1",
+      "files": [
+        "45353453"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.idk.voiddust": "Voiddust",
+      "item.idk.reaper_leggings": "Void Armor Leggings",
+      "fluid.idk.void_essence": "Void Essence",
+      "entity.idk.void_reaper": "Void Reaper",
+      "enchantment.idk.voidded": "Voidded",
+      "item.idk.void_armor_boots": "Void Armor Boots",
+      "itemGroup.tabvoid_items": "Void Items",
+      "item.idk.union": "Union",
+      "item.idk.union.desc": "Union - OxT",
+      "subtitles.union": "",
+      "subtitles.disc1": "",
+      "item.idk.reapers_scythe": "Reapers Scythe",
+      "advancements.intothevoid.descr": "You made it into the void",
+      "block.idk.void_stairs": "Void Stairs",
+      "block.idk.void_stone": "Void Stone",
+      "item.idk.void_armor_leggings": "Void Armor Leggings",
+      "advancements.intothevoid.title": "Into The Void",
+      "item.idk.void_stick": "Void Stick",
+      "entity.idk.void_brute": "Void Brute",
+      "block.idk.void_light_bar": "Void Fence (light)",
+      "item.idk.void_armor_helmet": "Void Armor Helmet",
+      "itemGroup.tabmusic": "Music",
+      "block.idk.void_fence": "Void Fence",
+      "item.idk.void_brute_spawn_egg": "Void Brute Spawn Egg",
+      "item.idk.space": "Space",
+      "item.idk.void_ingot": "Void Ingot",
+      "item.idk.void_essence_bucket": "Void Essence Bucket",
+      "block.idk.void_slab": "Void Slab",
+      "item.idk.reaper_helmet": "Void Armor Helmet",
+      "block.idk.void_brick": "Void Brick",
+      "item.idk.reaper_boots": "Void Armor Boots",
+      "effect.voided": "Voided",
+      "item.idk.void_blade": "Void Blade",
+      "item.idk.void_dimension": "Void Spark",
+      "block.idk.void_frame": "Void Frame",
+      "item.idk.void_armor_chestplate": "Void Armor Body",
+      "block.idk.void_ground": "Void Ground",
+      "block.idk.void_pillar": "Void Pillar",
+      "item.idk.void_reaper_spawn_egg": "Void Reaper Spawn Egg",
+      "block.idk.void_ore": "Void Ore",
+      "item.idk.void_wanderer_spawn_egg": "Void Wanderer Spawn Egg",
+      "biome.idk.void_realm": "Void Realm",
+      "item.idk.reaper_chestplate": "Void Armor Body",
+      "entity.idk.void_wanderer": "Void Wanderer",
+      "item.idk.void_shovel": "Void Shovel",
+      "block.idk.void_essence": "Void Essence"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "idk",
+    "modName": "IDK",
+    "version": "1.0.0",
+    "author": "gowzy, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.idk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Voided",
+    "icon": "voided.png",
+    "color": {
+      "value": -10092391,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "VoidedEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "VoidedEffectStartedapplied"
+    }
+  }
+}

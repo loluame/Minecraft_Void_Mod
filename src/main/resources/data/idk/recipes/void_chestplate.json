@@ -1,0 +1,39 @@
+{
+  "group": "idk",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "idk:voiddust"
+    },
+    "2": {
+      "item": "idk:voiddust"
+    },
+    "3": {
+      "item": "idk:voiddust"
+    },
+    "4": {
+      "item": "idk:voiddust"
+    },
+    "5": {
+      "item": "idk:voiddust"
+    },
+    "6": {
+      "item": "idk:voiddust"
+    },
+    "7": {
+      "item": "idk:voiddust"
+    },
+    "8": {
+      "item": "idk:voiddust"
+    }
+  },
+  "result": {
+    "item": "idk:void_armor_chestplate",
+    "count": 1
+  }
+}
