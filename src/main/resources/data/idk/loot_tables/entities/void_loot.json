@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "idk:reapers_scythe",
+          "name": "idk:void_blade",
           "weight": 1,
           "functions": [
             {

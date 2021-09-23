@@ -630,6 +630,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "alter"
+    },
+    {
+      "name": "VoidSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidSword",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_sword",
+      "path": "~/VoidTools"
+    },
+    {
+      "name": "VoidSwordC",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_sword_c"
+    },
+    {
+      "name": "VoidPlank",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_plank"
+    },
+    {
+      "name": "VoidStickC",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_stick_c"
     }
   ],
   "variable_elements": [],
@@ -665,8 +719,8 @@
       "advancements.intothevoid.descr": "You made it into the void",
       "block.idk.void_stairs": "Void Stairs",
       "block.idk.void_wood": "Void Wood",
-      "advancements.intothevoid.title": "Into The Void",
       "item.idk.void_armor_leggings": "Void Armor Leggings",
+      "advancements.intothevoid.title": "Into The Void",
       "entity.idk.void_brute": "Void Brute",
       "block.idk.void_light_bar": "Void Fence (light)",
       "item.idk.void_armor_helmet": "Void Armor Helmet",
@@ -684,6 +738,7 @@
       "item.idk.voiddust": "Voiddust",
       "item.idk.reaper_leggings": "Void Armor Leggings",
       "fluid.idk.void_essence": "Void Essence",
+      "item.idk.void_sword": "Void Sword",
       "item.idk.void_armor_boots": "Void Armor Boots",
       "itemGroup.tabvoid_items": "Void Items",
       "item.idk.reapers_scythe": "Reapers Scythe",

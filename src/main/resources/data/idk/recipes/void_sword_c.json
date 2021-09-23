@@ -1,0 +1,24 @@
+{
+  "group": "idk",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_crystal"
+    },
+    "1": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "2": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "result": {
+    "item": "idk:void_sword",
+    "count": 1
+  }
+}

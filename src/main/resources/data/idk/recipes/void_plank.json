@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "idk:void_log"
+    }
+  ],
+  "result": {
+    "item": "idk:void_wood",
+    "count": 4
+  }
+}
