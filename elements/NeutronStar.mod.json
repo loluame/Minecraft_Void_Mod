@@ -1,0 +1,45 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "neutronstar",
+    "customModelName": "Normal",
+    "name": "Neutron Star",
+    "specialInfo": [
+      "This should have killed you... well now you can throw it and kill the mobs"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:VoidItems"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 5.0,
+    "bulletDamage": 10000.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:NeutronStarim"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "NeutronStarBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "NeutronStarBulletHitsLivingEntity"
+    }
+  }
+}

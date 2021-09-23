@@ -22,6 +22,7 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -39,6 +40,7 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.idk.item.VoiddustItem;
+import net.mcreator.idk.item.NeutronStarItem;
 import net.mcreator.idk.entity.renderer.VoidWandererRenderer;
 import net.mcreator.idk.IdkModElements;
 
@@ -100,6 +102,7 @@ public class VoidWandererEntity extends IdkModElements.ModElement {
 			setNoAI(false);
 			setCustomName(new StringTextComponent("Void Wanderer"));
 			setCustomNameVisible(true);
+			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(NeutronStarItem.block));
 		}
 
 		@Override

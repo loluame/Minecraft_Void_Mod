@@ -684,6 +684,95 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_stick_c"
+    },
+    {
+      "name": "NeutronStarBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neutron_star_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeutronStarBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neutron_star_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeutronStarim",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neutron_starim"
+    },
+    {
+      "name": "NeutronStar",
+      "type": "rangeditem",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neutron_star"
+    },
+    {
+      "name": "VoidSpark",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_spark"
     }
   ],
   "variable_elements": [],
@@ -717,6 +806,7 @@
       "subtitles.disc1": "",
       "item.idk.void_shovel_1": "Void Shovel",
       "advancements.intothevoid.descr": "You made it into the void",
+      "item.idk.neutron_star": "Neutron Star",
       "block.idk.void_stairs": "Void Stairs",
       "block.idk.void_wood": "Void Wood",
       "item.idk.void_armor_leggings": "Void Armor Leggings",
@@ -745,6 +835,7 @@
       "block.idk.void_stone": "Void Stone",
       "block.idk.void_log": "Void Log",
       "item.idk.void_stick": "Void Stick",
+      "item.idk.neutron_starim": "Neutron Star",
       "itemGroup.tabmusic": "Music",
       "item.idk.space": "Space",
       "item.idk.void_ingot": "Void Ingot",
