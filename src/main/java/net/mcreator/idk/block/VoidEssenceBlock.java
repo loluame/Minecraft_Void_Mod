@@ -40,6 +40,7 @@ import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
@@ -47,10 +48,13 @@ import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.idk.procedures.ReapersScytheLivingEntityIsHitWithToolProcedure;
 import net.mcreator.idk.itemgroup.VoidItemsItemGroup;
 import net.mcreator.idk.IdkModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @IdkModElements.ModElement.Tag
 public class VoidEssenceBlock extends IdkModElements.ModElement {
@@ -94,6 +98,19 @@ public class VoidEssenceBlock extends IdkModElements.ModElement {
 					@Override
 					public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 						return true;
+					}
+
+					@Override
+					public void onEntityCollision(BlockState blockstate, World world, BlockPos pos, Entity entity) {
+						super.onEntityCollision(blockstate, world, pos, entity);
+						int x = pos.getX();
+						int y = pos.getY();
+						int z = pos.getZ();
+						{
+							Map<String, Object> $_dependencies = new HashMap<>();
+							$_dependencies.put("entity", entity);
+							ReapersScytheLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+						}
 					}
 				}.setRegistryName("void_essence"));
 		elements.items.add(() -> new BucketItem(still,
@@ -153,7 +170,7 @@ public class VoidEssenceBlock extends IdkModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, BlockStateFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.OVERWORLD)
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("idk:void_dimension")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

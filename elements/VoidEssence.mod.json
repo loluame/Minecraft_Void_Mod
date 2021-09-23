@@ -42,8 +42,11 @@
     "colorOnMap": "DEFAULT",
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:VoidDimension"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "ReapersScytheLivingEntityIsHitWithTool"
+    }
   }
 }
