@@ -37,7 +37,7 @@
     "particlesProbability": 10.0,
     "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "CUSTOM:VoidRealm"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -89,16 +89,6 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:VoidReaper"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 1,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }

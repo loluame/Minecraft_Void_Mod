@@ -25,7 +25,7 @@
     },
     "isBoss": true,
     "bossBarColor": "PURPLE",
-    "bossBarType": "PROGRESS",
+    "bossBarType": "NOTCHED_20",
     "equipmentMainHand": {
       "value": "CUSTOM:ReapersScythe"
     },
@@ -77,7 +77,7 @@
     "immuneToWither": true,
     "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": "CUSTOM:ReapersScythe"
+      "value": ""
     },
     "livingSound": {
       "value": ""
