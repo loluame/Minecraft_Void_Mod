@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "voidwood",
-    "textureTop": "voidwood",
-    "textureLeft": "voidwood",
-    "textureFront": "voidwood",
-    "textureRight": "voidwood",
-    "textureBack": "voidwood",
+    "texture": "voidliquid",
+    "textureTop": "voidframe",
+    "textureLeft": "portal",
+    "textureFront": "portal",
+    "textureRight": "portal",
+    "textureBack": "portal",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Void Wood",
+    "name": "Alter",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "MISCELLANEOUS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "AlterOnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

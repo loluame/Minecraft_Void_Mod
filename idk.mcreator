@@ -583,6 +583,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_wood"
+    },
+    {
+      "name": "VoidWoodSlab",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_wood_slab"
+    },
+    {
+      "name": "AlterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alter_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alter",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alter"
     }
   ],
   "variable_elements": [],
@@ -609,6 +656,7 @@
       "item.idk.void_axe_1": "Void Axe",
       "entity.idk.void_reaper": "Void Reaper",
       "enchantment.idk.voidded": "Voidded",
+      "block.idk.alter": "Alter",
       "item.idk.union": "Union",
       "item.idk.union.desc": "Union - OxT",
       "subtitles.union": "",
@@ -617,8 +665,8 @@
       "advancements.intothevoid.descr": "You made it into the void",
       "block.idk.void_stairs": "Void Stairs",
       "block.idk.void_wood": "Void Wood",
-      "item.idk.void_armor_leggings": "Void Armor Leggings",
       "advancements.intothevoid.title": "Into The Void",
+      "item.idk.void_armor_leggings": "Void Armor Leggings",
       "entity.idk.void_brute": "Void Brute",
       "block.idk.void_light_bar": "Void Fence (light)",
       "item.idk.void_armor_helmet": "Void Armor Helmet",
@@ -657,7 +705,8 @@
       "biome.idk.void_realm": "Void Realm",
       "entity.idk.void_wanderer": "Void Wanderer",
       "item.idk.void_hoe": "Void Hoe",
-      "block.idk.void_essence": "Void Essence"
+      "block.idk.void_essence": "Void Essence",
+      "block.idk.void_wood_slab": "Void Wood Slab"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "idk:blocks/voidwood",
+    "top": "idk:blocks/voidwood",
+    "side": "idk:blocks/voidwood"
+  }
+}

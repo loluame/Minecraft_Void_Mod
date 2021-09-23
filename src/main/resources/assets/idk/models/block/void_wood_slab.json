@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "idk:blocks/voidwood",
+    "top": "idk:blocks/voidwood",
+    "side": "idk:blocks/voidwood"
+  }
+}

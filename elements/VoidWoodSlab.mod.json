@@ -4,17 +4,18 @@
   "definition": {
     "texture": "voidwood",
     "textureTop": "voidwood",
-    "textureLeft": "voidwood",
+    "textureLeft": "",
     "textureFront": "voidwood",
-    "textureRight": "voidwood",
-    "textureBack": "voidwood",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -32,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Void Wood",
+    "name": "Void Wood Slab",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -50,7 +51,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "WOOD"
     },
