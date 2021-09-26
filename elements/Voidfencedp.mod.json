@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Void Fence (light)",
+    "name": "Void Fence",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:VoidFence"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -64,7 +64,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:VoidLightBar"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -95,7 +95,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -122,6 +122,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "VoidfencedpOnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -773,6 +773,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_spark"
+    },
+    {
+      "name": "Voidfencedp",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidfencedp"
+    },
+    {
+      "name": "VoidfencedpOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidfencedp_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidBrickLight",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_light"
+    },
+    {
+      "name": "VoidArena",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_arena"
     }
   ],
   "variable_elements": [],
@@ -797,6 +853,7 @@
   "language_map": {
     "en_us": {
       "item.idk.void_axe_1": "Void Axe",
+      "block.idk.voidfencedp": "Void Fence",
       "entity.idk.void_reaper": "Void Reaper",
       "enchantment.idk.voidded": "Voidded",
       "block.idk.alter": "Alter",
@@ -825,6 +882,7 @@
       "item.idk.void_pickaxe": "Void Pickaxe",
       "item.idk.void_wanderer_spawn_egg": "Void Wanderer Spawn Egg",
       "item.idk.reaper_chestplate": "Void Armor Body",
+      "block.idk.void_brick_light": "Void Brick",
       "item.idk.voiddust": "Voiddust",
       "item.idk.reaper_leggings": "Void Armor Leggings",
       "fluid.idk.void_essence": "Void Essence",

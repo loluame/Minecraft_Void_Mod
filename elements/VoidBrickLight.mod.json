@@ -2,23 +2,22 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "vstairtop",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "voidbrick",
+    "textureTop": "voidbrick",
+    "textureLeft": "voidbrick",
+    "textureFront": "voidbrick",
+    "textureRight": "voidbrick",
+    "textureBack": "voidbrick",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Fence",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Void Fence (light)",
+    "name": "Void Brick",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -44,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:VoidFence"
+      "value": "CUSTOM:VoidBrick"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -64,7 +63,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:VoidLightBar"
+      "value": "CUSTOM:VoidBrickLight"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
