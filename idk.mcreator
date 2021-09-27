@@ -344,15 +344,6 @@
       "registry_name": "void_wanderer"
     },
     {
-      "name": "VoidStronghold",
-      "type": "structure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "void_stronghold"
-    },
-    {
       "name": "VoidedEffectStartedapplied",
       "type": "procedure",
       "sortid": 37,
