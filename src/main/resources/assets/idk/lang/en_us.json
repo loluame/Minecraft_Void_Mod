@@ -1,6 +1,6 @@
 {
-  "block.idk.voidfencedp": "Void Fence",
   "item.idk.void_axe_1": "Void Axe",
+  "block.idk.voidfencedp": "Void Fence",
   "entity.idk.void_reaper": "Void Reaper",
   "enchantment.idk.voidded": "Voidded",
   "block.idk.alter": "Alter",
@@ -13,8 +13,8 @@
   "item.idk.neutron_star": "Neutron Star",
   "block.idk.void_stairs": "Void Stairs",
   "block.idk.void_wood": "Void Wood",
-  "advancements.intothevoid.title": "Into The Void",
   "item.idk.void_armor_leggings": "Void Armor Leggings",
+  "advancements.intothevoid.title": "Into The Void",
   "entity.idk.void_brute": "Void Brute",
   "block.idk.void_light_bar": "Void Fence (light)",
   "item.idk.void_armor_helmet": "Void Armor Helmet",
